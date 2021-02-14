@@ -106,16 +106,6 @@ window.rollDice = () => {
                         currentPlayerTurn++;
                 }
         }
-        /*const pos = 'ola';
-        switch (pos) {
-                case currentPlayer.position === tab[5]:
-                    let pergunta = +prompt(questions.name === questions.level === '1')
-    
-                        break;
-        
-                default:
-                        break;
-        }*/
 
         if (currentPlayer.position === position) {
                 const diff = currentPlayer.position - position;
